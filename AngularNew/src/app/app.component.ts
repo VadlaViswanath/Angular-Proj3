@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularNew';
+  name:string='Visu Chari';
+  hide:boolean=false;
+
+  hide2(){
+    this.hide=true;
+  }
 }
